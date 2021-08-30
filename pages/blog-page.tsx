@@ -1,15 +1,15 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
-import 'tailwindcss/tailwind.css';
 import Layout from '../components/layout';
 
-const About: NextPage = () => {
+const Blog: NextPage = () => {
   return (
-    <Layout title="about">
-      <h1>about page</h1>
+    <Layout title="Blog">
+      <h1>Blog Page</h1>
       <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
     </Layout>
   );
 };
 
-export default About;
+export default Blog;

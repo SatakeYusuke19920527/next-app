@@ -1,14 +1,15 @@
-import type { NextPage } from 'next'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from 'next';
+import Link from 'next/link';
+import Layout from '../components/layout';
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <Layout title="Home">
       <h1>Home</h1>
+      <h1>Hello next.tsx</h1>
       <Link href="/about">About</Link>
-    </div>
-  )
-}
+    </Layout>
+  );
+};
 
-export default Home
+export default Home;
