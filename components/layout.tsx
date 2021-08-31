@@ -9,9 +9,9 @@ type PropsType = {
 
 const Layout: NextPage<PropsType> = ({ children, title }) => {
   return (
-    <div className="h-screen font-mono flex flex-col">
+    <div className="font-mono flex flex-col min-h-screen h-auto">
       <Header title={title} />
-      <main className="flex flex-col justify-center items-center h-5/6">
+      <main className="flex flex-col justify-center min-h-screen m-auto">
         {children}
       </main>
       <Footer />

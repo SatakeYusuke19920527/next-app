@@ -4,8 +4,8 @@ import 'tailwindcss/tailwind.css';
 
 const Footer: NextPage = () => {
   return (
-    <footer className="h-1/8 w-screen px-8 py-2 box-border border-t flex items-center justify-center">
-      <ul className="flex text-black">
+    <footer className="h-96 bg-gray-800 w-screen px-8 py-2 box-border border-t flex items-center justify-center">
+      <ul className="flex text-white">
         <li className="w-20">
           <Link href="/">Home</Link>
         </li>
