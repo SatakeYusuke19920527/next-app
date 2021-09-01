@@ -10,6 +10,7 @@ type PropsType = {
 };
 
 export default function Post({ post }: PropsType) {
+  console.log(post);
   return (
     <div>
       <span>{post.id}</span>

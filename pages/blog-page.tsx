@@ -12,7 +12,6 @@ type PostType = {
 };
 
 const Blog: NextPage = (props: any) => {
-  console.log(props.posts);
   return (
     <Layout title="Blog">
       <h1>Blog Page</h1>
